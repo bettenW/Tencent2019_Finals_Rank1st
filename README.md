@@ -1,7 +1,12 @@
-# 知乎专栏：zhuanlan.zhihu.com/DataAI
-# Tencent2019_Finals_Rank1st
+## 知乎专栏：zhuanlan.zhihu.com/DataAI 机器学习理论与数据竞赛实战
+## Tencent2019_Finals_Rank1st
 # 2019腾讯广告算法大赛完整代码（冠军）
 
+## 数据下载
+``` 
+链接：https://pan.baidu.com/s/1O5aOkQ_gVOuT1jkC8NFb9g 
+提取码：biv9 
+``` 
 ## 1.环境配置和所需依赖库
 - scikit-learn
 - tqdm
