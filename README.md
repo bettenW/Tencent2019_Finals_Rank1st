@@ -1,3 +1,4 @@
+# 知乎专栏：zhuanlan.zhihu.com/DataAI
 # Tencent2019_Finals_Rank1st
 # 2019腾讯广告算法大赛完整代码（冠军）
 
