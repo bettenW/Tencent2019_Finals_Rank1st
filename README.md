@@ -110,7 +110,7 @@ bash run.sh
 
 【Kaggle数据竞赛】
 ```
-![avatar](picture/Mind_Mapping.png)
+![avatar](picture/Mind_Mapping.jpg)
 ```
 【适合群体】
 1. 对数据竞赛特别感兴趣的你
@@ -129,4 +129,4 @@ bash run.sh
 2.「特价」限额折扣，前1k人享受5折特惠，99元/年，之后将恢复至199/年
 3. 支付完成后，加微信号datawhale2020，邀您进会员群
 ```
-![avatar](picture/Kaggle_DataWhale.jpg)
+![avatar](picture/Kaggle_Datawhale.jpg)
