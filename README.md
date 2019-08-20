@@ -109,8 +109,9 @@ bash run.sh
 就在前不久我和Datawhale的晶晶，还有杰少一起计划推出有关数据竞赛的高质量社区，并邀请了圈内大咖，有Kaggle上的Grand Master，也有天池的数据科学家，还有顶会科研大佬。筹备社区前，我们也一直考虑如何提供更好的体验和学习服务，为此做出大量的筹划，力求为学习者提供数据竞赛的一站式服务。
 
 【Kaggle数据竞赛】
+```
 ![avatar](picture/Mind_Mapping.png)
-
+```
 【适合群体】
 1. 对数据竞赛特别感兴趣的你
 2. 想在数据科学领域一展拳脚的你
@@ -119,12 +120,13 @@ bash run.sh
 5. 想结识更多优秀同伴和竞赛大佬
 
 【星球嘉宾】
+```
 ![avatar](picture/guest.jpg)
-
+```
 【加入方式】
 知识星球「Kaggle数据竞赛」
 1. 扫描下方二维码申请加入
 2.「特价」限额折扣，前1k人享受5折特惠，99元/年，之后将恢复至199/年
 3. 支付完成后，加微信号datawhale2020，邀您进会员群
-![avatar](picture/Kaggle_DataWhale.jpg)
 ```
+![avatar](picture/Kaggle_DataWhale.jpg)
