@@ -44,54 +44,8 @@ bash run.sh
 ```
 ### （2）目录gdy 
 #### 模型: Xdeepfm https://arxiv.org/pdf/1803.05170.pdf
-```python
-    参数：  hparam=tf.contrib.training.HParams(
-            model='xdeepfm',
-            norm=True,
-            batch_norm_decay=0.9,
-            hidden_size=[1024,512],
-            dense_hidden_size=[300],
-            cross_layer_sizes=[128,128],
-            k=8,
-            single_k=8,
-            num_units=64,
-            num_layer=1,
-            encoder_type='uni',
-            max_length=100,
-            cross_hash_num=int(5e6),
-            single_hash_num=int(5e6),
-            multi_hash_num=int(1e6),
-            sequence_hash_num=int(1e4),
-            batch_size=128,
-            infer_batch_size=2**10,
-            optimizer="adam",
-            dropout=0,
-            kv_batch_num=20,
-            learning_rate=0.0002,
-            num_display_steps=1000,
-            num_eval_steps=1000,
-            epoch=1, #don't modify
-            metric='score',
-            activation=['relu','relu','relu'],
-            init_method='tnormal',
-            cross_activation='relu',
-            init_value=0.001,
-            single_features=single_features,
-            cross_features=cross_features,
-            multi_features=multi_features,
-            sequence_features=sequence_features,
-            dense_features=dense_features,
-            kv_features=kv_features,
-            label='imp',
-            model_name="xdeepfm",
-            bid='bid_feature',
-            use_bid=False,
-            bias=1)
-```
 #### 模型: lightgbm
-```python
-    参数：  lgb_model = lgb.LGBMRegressor(num_leaves=256, reg_alpha=0., reg_lambda=0.01,objective='mae',metric=False,max_depth=-1, learning_rate=0.03,min_child_samples=25, n_estimators=1200, subsample=0.7, colsample_bytree=0.45)
-```
+
 ### （3）目录wh
 #### 模型: lightgbm
 ```python
@@ -112,10 +66,11 @@ bash run.sh
 
 ### 竞赛社区（知识星球）
 ```
-就在前不久我和Datawhale的晶晶，还有杰少一起计划推出有关数据竞赛的高质量社区，并邀请了圈内大咖，有Kaggle上的Grand Master，也有天池的数据科学家，还有顶会科研大佬。筹备社区前，我们也一直考虑如何提供更好的体验和学习服务，为此做出大量的筹划，力求为学习者提供数据竞赛的一站式服务。
+近期我们公众号和国内的开源组织Datawhale还有杰少一起成立了一个数据竞赛知识星球，并且邀请了国内的很多知名实战高手和赛圈的大佬，在推出的三天中也已经有了500多的用户报名，如果你真的对实战感兴趣而且希望好好学习的话，欢迎通过扫描下面的二维码进行报名，这样可以帮助您省下9元的报名费用，
 
 【Kaggle数据竞赛】
 ```
+![avatar](picture/Kaggle_Datawhale.jpg)
 ![avatar](picture/Mind_Mapping.jpg)
 ```
 【适合群体】
@@ -129,10 +84,3 @@ bash run.sh
 ```
 ![avatar](picture/guest.jpg)
 ```
-【加入方式】
-知识星球「Kaggle数据竞赛」
-1. 扫描下方二维码申请加入
-2.「特价」限额折扣，前1k人享受5折特惠，99元/年，之后将恢复至199/年
-3. 支付完成后，加微信号datawhale2020，邀您进会员群
-```
-![avatar](picture/Kaggle_Datawhale.jpg)
